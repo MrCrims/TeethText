@@ -1,0 +1,42 @@
+{
+    "serial_port_pos": "COM3",
+    "initial_baro_value": [
+        [
+            100433.25536764709,
+            100537.94448529411
+        ]
+    ],
+    "threshold_baro_energy": [
+        [
+            22.09531618088236,
+            20.10758889705882
+        ]
+    ],
+    "baro_coefficient": [
+        0.00022,
+        0.0002
+    ],
+    "threshold_baro_length_min": 20,
+    "threshold_baro_length_max": 200,
+    "theshold_width": 40,
+    "buffer_size": 40,
+    "extend_data_length": 200,
+    "train_sample_num": 3,
+    "test_sample_num": 3,
+    "norm_type": 1,
+    "model_path": "model/gesture_classify_xsl_train.pkl",
+    "phrase_path": "phrases_set/phrases_set_session_1.txt",
+    "gesture_list": [
+        "Single-Left-Click",
+        "Double-Left-Click",
+        "Single-Down-Click",
+        "Double-Down-Click",
+        "Triple-Down-Click",
+        "Single-Right-Click",
+        "Double-Right-Click",
+        "Left-Slide",
+        "Right-Slide"
+    ],
+    "gesture_max_min_interval_threshold": 30,
+    "data_collection_each_gesture_time": 5
+}
